@@ -1,0 +1,181 @@
+{
+  "categorias": [
+    {
+      "titulo": "UFC Fight Motion",
+      "link": "ufc.com",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Ultimate Fight Championship",
+        "url": "ufc.com"
+      },
+      "videos": [
+        {
+          "titulo": "UFC 251 Fight Motion",
+          "url": "https://www.youtube.com/watch?v=ULKXidThmdY"
+        },
+        {
+          "titulo": "UFC 250 Fight Motion",
+          "url": "https://www.youtube.com/watch?v=vBmnJBRwBNw"
+        },
+        {
+          "titulo": "UFC 249 Fight Motion",
+          "url": "https://www.youtube.com/watch?v=1LaU5H1jaw4"
+        },
+        {
+          "titulo": "UFC 248 Fight Motion",
+          "url": "https://www.youtube.com/watch?v=P27o7r2huK0"
+        },
+        {
+          "titulo": "UFC 247 Fight Motion",
+          "url": "https://www.youtube.com/watch?v=wQKWqJFRoc4"
+        },
+        {
+          "titulo": "UFC 246 Fight Motion",
+          "url": "https://www.youtube.com/watch?v=O0c2_HFw6o8"
+        },
+        {
+          "titulo": "UFC 245 Fight Motion",
+          "url": "https://www.youtube.com/watch?v=XtSwcr7PYtA"
+        },
+        {
+          "titulo": "UFC 244 Fight Motion",
+          "url": "https://www.youtube.com/watch?v=8J7nSWEJHd0"
+        }
+      ]
+    },
+    {
+      "titulo": "Bellator",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Bellator Fight Championship",
+        "url": "http://www.bellator.com/"
+      },
+      "videos": [
+        {
+          "titulo": "Re-Air | Bellator 178 Straus vs. Pitbull 4",
+          "url": "https://www.youtube.com/watch?v=sJkEVwubo78"
+        },
+        {
+          "titulo": "Re-Air | Bellator 179 Daley vs. Macdonald",
+          "url": "https://www.youtube.com/watch?v=Ba_rjscKIh4"
+        },
+        {
+          "titulo": "Re-Air | Bellator 180 Sonnen vs. Silva",
+          "url": "https://www.youtube.com/watch?v=fPiET7T4RoA"
+        },
+        {
+          "titulo": "Re-Air | Bellator 181 Girtz vs. Campos 3",
+          "url": "https://www.youtube.com/watch?v=7HsjIEfNBzA"
+        },
+        {
+          "titulo": "Re-Air | Bellator 182 Andrey Koreshkov vs. Chidi Njokuani",
+          "url": "https://www.youtube.com/watch?v=kaB41G9q3Z0"
+        }
+      ]
+    },
+    {
+      "titulo": "FloGrappling",
+      "cor": "#9cd33b",
+      "link_extra": {
+        "text": "FloGrappling",
+        "url": "https://www.flograppling.com/"
+      },
+      "videos": [
+        {
+          "titulo": "Jiu-Jitsu Monsters: Nicky Rod & Gordon Ryan's ADCC Diet",
+          "url": "https://www.youtube.com/watch?v=UiqmrnEFfII"
+        },
+        {
+          "titulo": "ADCC Trials Vlog: All the Highlights!!!",
+          "url": "https://www.youtube.com/watch?v=7u9f2c0CxTE"
+        },
+        {
+          "titulo": "BJJ Stars - Brazil's Biggest Fight Card Of 2020!",
+          "url": "https://www.youtube.com/watch?v=AGKF_5WQQ-c"
+        },
+        {
+          "titulo": "Nick Rodriguez vs John Hansen 2019 ADCC North American Trials",
+          "url": "https://www.youtube.com/watch?v=9T2u41-BYwM"
+        }
+      ]
+    },
+    {
+      "titulo": "ONE Championship",
+      "cor": "orange",
+      "link_extra": {
+        "text": "ONE Fight Championship",
+        "url": "https://www.onefc.com/"
+      },
+      "videos": [
+        {
+          "titulo": "Top 5 ONE Championship Fights Of 2013",
+          "url": "https://www.youtube.com/watch?v=bACEPeD8k_o"
+        },
+        {
+          "titulo": "ONE Championship's Best Muay Thai Spinning Attacks | The Art Of Eight Limbs Highlights",
+          "url": "https://www.youtube.com/watch?v=y2PtGFDVqSQ"
+        },
+        {
+          "titulo": "Top 5 ONE Championship Fights Of 2012",
+          "url": "https://www.youtube.com/watch?v=6vsxOGH_PL0"
+        },
+        {
+          "titulo": "Petchmorakot's Dominant Return To Muay Thai",
+          "url": "https://www.youtube.com/watch?v=pqxDn_w-CiM"
+        }
+      ]
+    },
+    {
+      "titulo": "GLORY Kickboxing",
+      "cor": "red",
+      "link_extra": {
+        "text": "Glory Kickboxing",
+        "url": "http://www.glorykickboxing.com/"
+      },
+      "videos": [
+        {
+          "titulo": "Have You Seen This: Too Much Bone",
+          "url": "https://www.youtube.com/watch?v=KKXb-oGVonI"
+        },
+        {
+          "titulo": "Zakaria Zouggary Hits Quick",
+          "url": "https://www.youtube.com/watch?v=01M7r8vtjLA"
+        },
+        {
+          "titulo": "Legendary Fights: Jean Claude Leuyer v Rob Kaman",
+          "url": "https://www.youtube.com/watch?v=ciyP9R0SGvs"
+        },
+        {
+          "titulo": "Head Kick KO: Glaube Feitosa",
+          "url": "https://www.youtube.com/watch?v=-G_N_XqoaC0"
+        }
+      ]
+    },
+    {
+      "titulo": "Motivedia - Boxing",
+      "cor": "#6b5be2",
+      "link_extra": {
+        "text": "Motivedia - Boxing",
+        "url": "https://www.youtube.com/c/MotivediaHD"
+      },
+      "videos": [
+        {
+          "titulo": "The Night MIKE Made His Opponent QUIT",
+          "url": "https://www.youtube.com/watch?v=3RQnHFWiNXs"
+        },
+        {
+          "titulo": "The Fights That COULD Have Changed Everything",
+          "url": "https://www.youtube.com/watch?v=36mlrWzrlqs"
+        },
+        {
+          "titulo": "FURY vs JOSHUA - The BIGGEST Fight in Boxing",
+          "url": "https://www.youtube.com/watch?v=GKLvEizqHYk"
+        },
+        {
+          "titulo": "Boxing’s Purgatory Documentary - Motivedia Originals",
+          "url": "https://www.youtube.com/watch?v=3pxgmToJ05c"
+        }
+      ]
+    }
+  ]
+}
