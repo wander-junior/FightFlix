@@ -1,0 +1,16 @@
+{
+  "categorias": [
+    {
+      "id": 1,
+      "nome": "UFC",
+      "descricao": "Ultimate Fighting Championship",
+      "cor": "#cbd1ff"
+    },
+    {
+      "id": 2,
+      "nome": "Bellator",
+      "descricao": "Bellator Fighting Championship",
+      "cor": "#cbd1ff"
+    }
+  ]
+}

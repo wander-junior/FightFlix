@@ -9,7 +9,7 @@ function Menu() {
   return (
     <nav className="Menu">
       <Link to="/">
-        <img class="Logo" src={Logo} alt="AluraFlix logo" />
+        <img className="Logo" src={Logo} alt="AluraFlix logo" />
       </Link>
 
       <Button as={Link} className="ButtonLink" to="/cadastro/video">
