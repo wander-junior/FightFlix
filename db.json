@@ -2,15 +2,125 @@
   "categorias": [
     {
       "id": 1,
-      "nome": "UFC",
-      "descricao": "Ultimate Fighting Championship",
-      "cor": "#cbd1ff"
+      "titulo": "UFC",
+      "cor": "#6BD1FF",
+      "link_extra": {
+        "text": "Ultimate Fight Championship",
+        "url": "ufc.com"
+      }
     },
     {
       "id": 2,
-      "nome": "Bellator",
-      "descricao": "Bellator Fighting Championship",
-      "cor": "#cbd1ff"
+      "titulo": "Bellator",
+      "cor": "#00C86F",
+      "link_extra": {
+        "text": "Bellator Fight Championship",
+        "url": "http://www.bellator.com/"
+      }
+    }
+  ],
+  "videos": [
+    {
+      "id": 1,
+      "categoriaId": 1,
+      "titulo": "UFC 251 Fight Motion",
+      "url": "https://www.youtube.com/watch?v=ULKXidThmdY"
+    },
+    {
+      "id": 2,
+      "categoriaId": 1,
+      "titulo": "UFC 250 Fight Motion",
+      "url": "https://www.youtube.com/watch?v=vBmnJBRwBNw"
+    },
+    {
+      "id": 3,
+      "categoriaId": 1,
+      "titulo": "UFC 249 Fight Motion",
+      "url": "https://www.youtube.com/watch?v=1LaU5H1jaw4"
+    },
+    {
+      "id": 4,
+      "categoriaId": 1,
+      "titulo": "UFC 248 Fight Motion",
+      "url": "https://www.youtube.com/watch?v=P27o7r2huK0"
+    },
+    {
+      "id": 5,
+      "categoriaId": 1,
+      "titulo": "UFC 247 Fight Motion",
+      "url": "https://www.youtube.com/watch?v=wQKWqJFRoc4"
+    },
+    {
+      "id": 6,
+      "categoriaId": 1,
+      "titulo": "UFC 246 Fight Motion",
+      "url": "https://www.youtube.com/watch?v=O0c2_HFw6o8"
+    },
+    {
+      "id": 7,
+      "categoriaId": 1,
+      "titulo": "UFC 245 Fight Motion",
+      "url": "https://www.youtube.com/watch?v=XtSwcr7PYtA"
+    },
+    {
+      "id": 8,
+      "categoriaId": 1,
+      "titulo": "UFC 244 Fight Motion",
+      "url": "https://www.youtube.com/watch?v=8J7nSWEJHd0"
+    },
+    {
+      "id": 9,
+      "categoriaId": 2,
+      "titulo": "Re-Air | Bellator 178 Straus vs. Pitbull 4",
+      "url": "https://www.youtube.com/watch?v=sJkEVwubo78"
+    },
+    {
+      "id": 10,
+      "categoriaId": 2,
+      "titulo": "Re-Air | Bellator 179 Daley vs. Macdonald",
+      "url": "https://www.youtube.com/watch?v=Ba_rjscKIh4"
+    },
+    {
+      "id": 11,
+      "categoriaId": 2,
+      "titulo": "Re-Air | Bellator 180 Sonnen vs. Silva",
+      "url": "https://www.youtube.com/watch?v=fPiET7T4RoA"
+    },
+    {
+      "id": 12,
+      "categoriaId": 2,
+      "titulo": "Re-Air | Bellator 181 Girtz vs. Campos 3",
+      "url": "https://www.youtube.com/watch?v=7HsjIEfNBzA"
+    },
+    {
+      "id": 13,
+      "categoriaId": 2,
+      "titulo": "Re-Air | Bellator 182 Andrey Koreshkov vs. Chidi Njokuani",
+      "url": "https://www.youtube.com/watch?v=kaB41G9q3Z0"
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=_eVrWa6_clA",
+      "categoriaId": 1,
+      "id": 14
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=9K3UpWNy8Ds",
+      "categoriaId": 1,
+      "id": 15
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=ft4b5DXFuWw",
+      "categoriaId": 1,
+      "id": 16
+    },
+    {
+      "titulo": "Vídeo padrão",
+      "url": "https://www.youtube.com/watch?v=nIvAK9tZZ9s",
+      "categoriaId": 1,
+      "id": 17
     }
   ]
 }
