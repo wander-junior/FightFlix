@@ -41,7 +41,7 @@ function CadastroVideo() {
             .create({
               titulo: values.titulo,
               url: values.url,
-              categoriaId: 1,
+              categoriaId: categoriaEscolhida.id,
             })
             .then(() => {
               history.push('/');

@@ -6,6 +6,7 @@ import PageDefault from '../../../components/PageDefault';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import useForm from '../../../hooks/useForm';
+import config from '../../../config';
 
 function CadastroCategoria() {
   const valoresIniciais = {
@@ -17,10 +18,9 @@ function CadastroCategoria() {
 
   const { handleChange, values, clearForm } = useForm(valoresIniciais);
 
+  const URL = `${config.URL_BACKEND}/categorias`;
   useEffect(() => {
-    const URL = window.location.hostname.includes('localhost')
-      ? 'http://localhost:8080/categorias'
-      : 'https://fightflix.herokuapp.com/categorias';
+    const URL = `${config.URL_BACKEND}/categorias`;
     fetch(URL).then(async (respostaDoServidor) => {
       const resposta = await respostaDoServidor.json();
       setCategorias([...resposta]);
@@ -36,7 +36,13 @@ function CadastroCategoria() {
       <form
         onSubmit={function handleSubmit(e) {
           e.preventDefault();
-          setCategorias([...categorias, values]);
+          fetch(URL, {
+            method: 'POST',
+            headers: {
+              'Content-type': 'application/json',
+            },
+            body: JSON.stringify(values),
+          });
           clearForm();
         }}
       >
@@ -66,14 +72,12 @@ function CadastroCategoria() {
 
         <Button>Cadastrar</Button>
 
-        {categorias.length === 0 && (
-          <div>
-            Loading...
-          </div>
-        )}
+        {categorias.length === 0 && <div>Loading...</div>}
 
         <ul>
-          {categorias.map((categoria) => <li key={`${categoria.titulo}`}>{categoria.titulo}</li>)}
+          {categorias.map((categoria) => (
+            <li key={`${categoria.titulo}`}>{categoria.titulo}</li>
+          ))}
         </ul>
       </form>
 

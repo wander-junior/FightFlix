@@ -17,6 +17,18 @@
         "text": "Bellator Fight Championship",
         "url": "http://www.bellator.com/"
       }
+    },
+    {
+      "titulo": "ONE FC",
+      "descricao": "ONE Fighting Championship",
+      "cor": "#ff9900",
+      "id": 3
+    },
+    {
+      "titulo": "GLORY Kickboxing",
+      "descricao": "Glory Kickboxing",
+      "cor": "#ff0000",
+      "id": 4
     }
   ],
   "videos": [
@@ -121,6 +133,29 @@
       "url": "https://www.youtube.com/watch?v=nIvAK9tZZ9s",
       "categoriaId": 1,
       "id": 17
+    },
+    {
+      "titulo": "Top 5 ONE Championship Fights Of 2013",
+      "url": "https://www.youtube.com/watch?v=bACEPeD8k_o",
+      "categoriaId": {
+        "titulo": "ONE FC",
+        "descricao": "ONE Fighting Championship",
+        "cor": "#ff9900",
+        "id": 3
+      },
+      "id": 18
+    },
+    {
+      "titulo": "Top 5 ONE Championship Fights Of 2013",
+      "url": "https://www.youtube.com/watch?v=bACEPeD8k_o",
+      "categoriaId": 3,
+      "id": 19
+    },
+    {
+      "titulo": "Have You Seen This: Too Much Bone",
+      "url": "https://www.youtube.com/watch?v=KKXb-oGVonI",
+      "categoriaId": 4,
+      "id": 20
     }
   ]
 }
