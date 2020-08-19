@@ -8,18 +8,19 @@ import useForm from '../../../hooks/useForm';
 import Button from '../../../components/Button';
 import videosRepository from '../../../repositories/videos';
 import categoriasRepository from '../../../repositories/categorias';
+import Warning from '../../../components/Warning';
 
 function CadastroVideo() {
   const history = useHistory();
   const [categorias, setCategorias] = useState([]);
+  const [isWarningVisible, setIsWarningVisible] = useState(false);
+  const [categoria, setCategoria] = useState('');
   const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { handleChange, values } = useForm({
     titulo: 'Vídeo padrão',
     url: 'https://www.youtube.com/watch?v=_eVrWa6_clA',
     categoria: 'UFC',
   });
-
-  console.log(categoryTitles);
 
   useEffect(() => {
     categoriasRepository.getAll().then((categoriasFromServer) => {
@@ -29,23 +30,29 @@ function CadastroVideo() {
 
   return (
     <PageDefault>
+      <Warning categoria={categoria} isWarningVisible={isWarningVisible} />
       <h1>Cadastro de Vídeo</h1>
       <form
         onSubmit={(e) => {
           e.preventDefault();
 
+          setCategoria(values.categoria);
           const categoriaEscolhida = categorias.find((categoria) => {
-            return categoria.titulo === values.categoria;
+            return categoria.titulo === categoria;
           });
-          videosRepository
-            .create({
-              titulo: values.titulo,
-              url: values.url,
-              categoriaId: categoriaEscolhida.id,
-            })
-            .then(() => {
-              history.push('/');
-            });
+          if (categoriaEscolhida !== undefined) {
+            videosRepository
+              .create({
+                titulo: values.titulo,
+                url: values.url,
+                categoriaId: categoriaEscolhida.id,
+              })
+              .then(() => {
+                history.push('/');
+              });
+          } else {
+            setIsWarningVisible(true);
+          }
         }}
       >
         <FormField
