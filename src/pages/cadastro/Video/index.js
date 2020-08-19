@@ -38,7 +38,7 @@ function CadastroVideo() {
 
           setCategoria(values.categoria);
           const categoriaEscolhida = categorias.find((categoria) => {
-            return categoria.titulo === categoria;
+            return categoria.titulo === values.categoria;
           });
           if (categoriaEscolhida !== undefined) {
             videosRepository
